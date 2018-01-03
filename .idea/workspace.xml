@@ -2,10 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9326b20e-6397-47de-a864-aa2cf364e86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npp.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d00/e000035c.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003163.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003193.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00031b5.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00031bc.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00031dc.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003220.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003295.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00032ec.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00033ce.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00033d0.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00033d8.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00033e1.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003444.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00034a9.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00034e7.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e000350b.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00035e0.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00035f2.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e000361f.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003675.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00036be.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003707.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e00037bc.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e000383d.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003878.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e000395a.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003a43.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003a64.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003a99.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003ab9.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003b83.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003c60.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003c6c.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003d16.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003d2e.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003d42.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003dc2.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003e1d.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003e4f.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003f11.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003f31.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003f99.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003fcd.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d03/e0003fec.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006069.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00060fa.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00060ff.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006121.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00061c6.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00061d2.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006206.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000620b.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006214.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006234.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006253.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00062a0.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00062cb.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00062ee.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00063aa.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00063b5.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00063fa.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000649d.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006551.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000655b.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000669d.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00066ae.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00066ec.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006727.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000672e.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000675d.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000686a.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e000690c.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e00069f3.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006ac8.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006acd.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006b12.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006ba9.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006bbf.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006bf5.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006d77.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006db9.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006df6.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006e0e.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006e7b.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006ec6.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006ece.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006ee4.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006f0c.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006f2e.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_data/e00/d06/e0006fd5.au" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devocal.py" afterPath="$PROJECT_DIR$/devocal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npp.py" afterPath="$PROJECT_DIR$/npp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +106,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/devocal$lyric_pitch.coverage" NAME="lyric_pitch Coverage Results" MODIFIED="1510126665176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/devocal$npp.coverage" NAME="npp Coverage Results" MODIFIED="1514891083614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/devocal$devocal.coverage" NAME="devocal Coverage Results" MODIFIED="1510120004989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/devocal$npp.coverage" NAME="npp Coverage Results" MODIFIED="1514959410689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/devocal$devocal.coverage" NAME="devocal Coverage Results" MODIFIED="1514959272195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/devocal$lyric_parser.coverage" NAME="lyric_parser Coverage Results" MODIFIED="1510121624615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="devocal.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="devocal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/devocal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -34,11 +124,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="npp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/npp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="93">
+              <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="npp_back.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/npp_back.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -84,21 +199,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lyric.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/lyric.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="441">
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,18 +215,6 @@
             <state relative-caret-position="420">
               <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lyric_pitch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lyric_pitch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,9 +238,9 @@
         <option value="$PROJECT_DIR$/lyric_pitch.py" />
         <option value="$PROJECT_DIR$/lyric_parser.py" />
         <option value="$PROJECT_DIR$/time_trans.py" />
-        <option value="$PROJECT_DIR$/devocal.py" />
-        <option value="$PROJECT_DIR$/npp.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/npp.py" />
+        <option value="$PROJECT_DIR$/devocal.py" />
       </list>
     </option>
   </component>
@@ -197,6 +290,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_data" />
     </key>
@@ -213,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.npp">
+  <component name="RunManager" selected="Python.devocal">
     <configuration name="devocal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,7 +379,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/npp.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="4">
@@ -294,8 +390,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.npp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.devocal" />
+        <item index="0" class="java.lang.String" itemvalue="Python.devocal" />
+        <item index="1" class="java.lang.String" itemvalue="Python.npp" />
         <item index="2" class="java.lang.String" itemvalue="Python.lyric_parser" />
         <item index="3" class="java.lang.String" itemvalue="Python.lyric_pitch" />
       </list>
@@ -322,17 +418,18 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49232915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34449095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1702432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -350,7 +447,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/npp.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -402,7 +506,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -454,7 +558,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -506,7 +610,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,7 +662,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,7 +706,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +750,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,7 +767,7 @@
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,29 +827,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npp_back.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/npp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="93">
+          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devocal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

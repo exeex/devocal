@@ -2,7 +2,7 @@ import librosa
 import lyric_parser
 import matplotlib.pyplot as plt
 import numpy as np
-
+import npp
 
 mix, sr = librosa.load("test_data/小幸運-有人聲.mp3", sr=None)
 nov, sr = librosa.load("test_data/小幸運-純伴奏.mp3", sr=None)
@@ -59,13 +59,23 @@ time = time //2 -1000
 
 from librosa.onset import onset_strength
 
-a = onset_strength(mute_start(mix[:time])) 
+a = onset_strength(mute_start(mix[:time]))
 b = onset_strength(nov[:time])
+
+# a = np.clip(a, 2, 10) -2
+# b = np.clip(b, 2, 10) -2
+
+a2 = npp.auto_shift(a,b)
+# a1,a2 =npp.convolve(a,b)
+
+# print(a1)
 
 plt.plot(a)
 plt.plot(b)
+# plt.plot(a1)
+plt.plot(a2)
 
-con1 = np.convolve(onset_strength(mix[:time]), onset_strength(nov[:time]), mode='same')
+# con1 = np.convolve(onset_strength(mix[:time]), onset_strength(nov[:time]), mode='same')
 
 # con2 = np.convolve(onset_strength(nov[:time]), onset_strength(mix[:time]), mode='same')
 
