@@ -1,16 +1,12 @@
 import librosa
 import lyric_parser
 import matplotlib.pyplot as plt
+from numpy import linalg as LA
 import numpy as np
 import npp
 
-mix, sr = librosa.load("test_data/小幸運-有人聲.mp3", sr=None)
-nov, sr = librosa.load("test_data/小幸運-純伴奏.mp3", sr=None)
-voc, sr = librosa.load("test_data/小幸運-純人聲版.mp3", sr=None)
 
-
-
-def ms2sample(time_ms):
+def ms2sample(time_ms,sr=44100):
 
     time_sample = int(round(time_ms /1000 * sr, 0))
 
@@ -21,23 +17,7 @@ def mute_start(sig):
     return sig
 
 time = lyric_parser.l.get_time_before_vocal()
-
-
 time = ms2sample(time)
-
-# r = librosa.zero_crossings(voc[0:time])
-
-# pad = np.pad(mix[:time],(0,4410), mode='constant')
-
-# con = np.convolve(pad,nov[0:time], mode='valid')
-
-# plt.plot(con)
-
-# r = librosa.logamplitude(librosa.feature.melspectrogram(voc[time:time*3],sr=sr,n_fft=4096,hop_length=2048))
-#
-# # voc[0:time]
-
-
 
 
 from scipy import signal
@@ -59,45 +39,58 @@ time = time //2 -1000
 
 from librosa.onset import onset_strength
 
-a = onset_strength(mute_start(mix[:time]))
-b = onset_strength(nov[:time])
 
-# a = np.clip(a, 2, 10) -2
-# b = np.clip(b, 2, 10) -2
+def compute_t_v(mix,nov,time):
 
-a2 = npp.auto_shift(a,b)
-# a1,a2 =npp.convolve(a,b)
+    vocal = mute_start(mix[:time])
+    no_vocal = nov[:time]
 
-# print(a1)
+    # step 1
 
-plt.plot(a)
-plt.plot(b)
-# plt.plot(a1)
-plt.plot(a2)
+    a = onset_strength(vocal)
+    b = onset_strength(no_vocal)
+    sample_onset_ratio = int(nov[:time].shape[0]/b.shape[0])
 
-# con1 = np.convolve(onset_strength(mix[:time]), onset_strength(nov[:time]), mode='same')
+    # step 2
 
-# con2 = np.convolve(onset_strength(nov[:time]), onset_strength(mix[:time]), mode='same')
+    onset_shift = npp.find_shift(a,b)
+    sample_shift = onset_shift * sample_onset_ratio
 
-# plt.plot(con1)
-# plt.plot(con2)
+    # vocal = npp.right_shift(vocal,sample_shift)
+
+    fine_sample_shift = npp.find_shift(vocal,no_vocal)
+
+    # compute volume
+
+    vol_ratio = LA.norm(vocal)/LA.norm(no_vocal)
+
+    print(vol_ratio)
+
+    return fine_sample_shift, vol_ratio
 
 
 
-# x = linspace(0,4,1e3)
-# data = .2*sin(10*x)+ exp(-abs(2-x)**2)
 
 
+if __name__ == "__main__":
 
-# that's the line, you need:
-# a = diff(sign(diff(data))).nonzero()[0] + 1 # local min+max
-# b = (diff(sign(diff(data))) > 0).nonzero()[0] + 1 # local min
-# c = (diff(sign(diff(data))) < 0).nonzero()[0] + 1 # local max
-#
-# # graphical output...
-# x=np.array(list(range(len(data))))
-# plt.plot(x,data)
-# plt.plot(x[b], data[b], "o", label="min")
-# plt.plot(x[c], data[c], "o", label="max")
-# plt.legend()
-# plt.show()
+    mix, sr = librosa.load("test_data/小幸運-有人聲.mp3", sr=None)
+    nov, sr = librosa.load("test_data/小幸運-純伴奏.mp3", sr=None)
+    voc, sr = librosa.load("test_data/小幸運-純人聲版.mp3", sr=None)
+
+    # 計算位移，音量
+    shift, vol = compute_t_v(mix,nov,time)
+
+    # mix2 = mix[:882000]
+    # nov2 = nov[:882000]
+
+    mix,nov = npp.pad_the_same(mix,nov)
+
+
+    # plt.plot(mix2)
+    mix2 = npp.right_shift(mix,shift)
+    # plt.plot(mix2)
+    # plt.plot(nov2)
+
+    result = mix2*1.5 - nov
+    librosa.output.write_wav("res.wav", result, sr)

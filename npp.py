@@ -16,6 +16,14 @@ def right_pad(array,pad_length):
     elif pad_length < 0:
         return array[:pad_length]
 
+def pad_the_same(a,b):
+    pad_length = a.shape[0] - b.shape[0]
+    if pad_length > 0 :
+        b = right_pad(b,pad_length)
+    elif pad_length < 0:
+        a = right_pad(a,-pad_length)
+
+    return a,b
 
 def right_shift(array,length):
     buf = right_pad(array, -length)
@@ -46,15 +54,13 @@ def convolve(kernel_array, array):
 def find_shift(kernel_array:np.ndarray, array:np.ndarray):
     left, right = convolve(kernel_array, array)
 
-    # print(left)
-    # print(right)
+    range = -1
 
+    r_max_idx = np.argmax(right[:range])
+    r_max_value = right[:range].max()
 
-    r_max_idx = np.argmax(right)
-    r_max_value = right.max()
-
-    l_max_idx = np.argmax(left)
-    l_max_value = left.max()
+    l_max_idx = np.argmax(left[:range])
+    l_max_value = left[:range].max()
 
     print(r_max_idx,r_max_value)
     print(l_max_idx,l_max_value)
