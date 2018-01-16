@@ -38,14 +38,13 @@ def compute_t_v(mix, bg, time):
     return fine_sample_shift, vol_ratio
 
 
-if __name__ == "__main__":
-
+def get_vocal(mix_file,bg_file,lyric_file,out_file="out.wav"):
     # 讀audio檔
-    mix, sr = librosa.load("test_data/小幸運-有人聲.mp3", sr=None)
-    nov, sr = librosa.load("test_data/小幸運-純伴奏.mp3", sr=None)
+    mix, sr = librosa.load(mix_file, sr=None)
+    bg, sr = librosa.load(bg_file, sr=None)
 
     # 取得前奏的時間
-    l = lyric_parser.lyric("test_data/lyric.txt")
+    l = lyric_parser.lyric(lyric_file)
     time = l.get_time_before_vocal()
 
     # 單位變換，從ms換成sample
@@ -54,17 +53,22 @@ if __name__ == "__main__":
 
     # 前處理
     mix = mute_start(mix)
-    nov = mute_start(nov)
+    bg = mute_start(bg)
 
     # 計算位移，音量
-    shift, vol = compute_t_v(mix, nov, time)
+    shift, vol = compute_t_v(mix, bg, time)
 
     # 前處理
-    mix, nov = npp.pad_the_same(mix, nov)
+    mix, bg = npp.pad_the_same(mix, bg)
     mix2 = npp.right_shift(mix, shift)
 
     # 訊號相減
-    result = mix2 * vol - nov
+    result = mix2 * vol - bg
 
     # 輸出
-    librosa.output.write_wav("res.wav", result, sr)
+    librosa.output.write_wav(out_file, result, sr)
+
+
+if __name__ == "__main__":
+
+    get_vocal("test_data/小幸運-有人聲.mp3","test_data/小幸運-純伴奏.mp3","test_data/lyric.txt","out.wav")

@@ -61,5 +61,9 @@ class lyric:
         return seq
 
     def get_time_before_vocal(self):
-        return self.seq[23][0]
+        return self.seq[0][0]
 
+if __name__ == "__main__":
+    l = lyric("test_data/lyric.txt")
+    time = l.get_time_before_vocal()
+    print(time)
