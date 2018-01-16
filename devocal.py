@@ -45,10 +45,11 @@ if __name__ == "__main__":
     nov, sr = librosa.load("test_data/小幸運-純伴奏.mp3", sr=None)
 
     # 取得前奏的時間
-    time = lyric_parser.l.get_time_before_vocal()
+    l = lyric_parser.lyric("test_data/lyric.txt")
+    time = l.get_time_before_vocal()
 
     # 單位變換，從ms換成sample
-    time = ms2sample(time - 1000)
+    time = ms2sample(time - 1000,sr)
     time = time // 2
 
     # 前處理
