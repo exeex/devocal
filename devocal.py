@@ -71,4 +71,4 @@ def get_vocal(mix_file,bg_file,lyric_file,out_file="out.wav"):
 
 if __name__ == "__main__":
 
-    get_vocal("test_data/小幸運-有人聲.mp3","test_data/小幸運-純伴奏.mp3","test_data/lyric.txt","out.wav")
+    get_vocal("test_data/小幸運-有人聲.mp3","test_data/小幸運-純伴奏.mp3","test_data/Lyric.txt","out.wav")

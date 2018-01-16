@@ -3,16 +3,15 @@ import re
 
 # TODO: 兩個字的case
 
-class lyric:
+class Lyric:
     def __init__(self,file):
-        with open(file,'r') as f:
+        with open(file,'r',encoding="utf-8") as f:
             self.text = f.read()
         self.seq = self._parse(self.text)
 
 
 
-    def get_lyric(self):
-        return
+
 
     def _parse(self,text):
         """
@@ -60,10 +59,19 @@ class lyric:
 
         return seq
 
+    def get_lyric(self):
+        lyric = ""
+        for item in self.seq:
+            lyric += item[2]
+        return lyric
+
     def get_time_before_vocal(self):
         return self.seq[0][0]
 
 if __name__ == "__main__":
-    l = lyric("test_data/lyric.txt")
+    l = Lyric("test_data/Lyric.txt")
     time = l.get_time_before_vocal()
     print(time)
+
+    llll = l.get_lyric()
+    print(llll)
