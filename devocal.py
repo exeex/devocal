@@ -49,7 +49,7 @@ if __name__ == "__main__":
     time = l.get_time_before_vocal()
 
     # 單位變換，從ms換成sample
-    time = ms2sample(time - 1000,sr)
+    time = ms2sample(time - 1000, sr)
     time = time // 2
 
     # 前處理
