@@ -1,19 +1,22 @@
 import re
 
 
-# TODO: 兩個字的case
+# TODO: 處理一個標籤塞兩個字的case
+# TODO: 修改self.seq後，存檔的功能
 
 class Lyric:
     def __init__(self,file):
+        """
+        create a Lyric object by open a lyric file
+        :param file: file_path
+
+        """
         with open(file,'r',encoding="utf-8") as f:
             self.text = f.read()
-        self.seq = self._parse(self.text)
+        self.seq = self.__parse(self.text)
 
 
-
-
-
-    def _parse(self,text):
+    def __parse(self,text):
         """
 
         :param text:
